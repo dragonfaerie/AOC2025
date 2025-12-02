@@ -5,6 +5,8 @@
 **Day 1**: 
 I do not sleep well so when I woke up a bit after 0300 I just sat down and worked through this.  A little googling syntax and an AI discussion later it's 0430 and this all is working.
 
+**Day 2**:
+Oops accidently solved part b while doing part a, didn't realize it, so had to resolve part b when I got to part b LOL. I really need to read all the details on the puzzle better.
 
 
 
