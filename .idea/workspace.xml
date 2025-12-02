@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50282514-0f97-4db7-9458-309902ced753" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/day2asolve.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/day2bsolve.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day02/day2input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aoc2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aoc2025.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/day1asolve.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/day1asolve.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/day1bsolve.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/day1bsolve.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/day1input" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/day1input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exampledata" beforeDir="false" afterPath="$PROJECT_DIR$/src/exampledata" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,14 +44,14 @@
   "keyToString": {
     "Application.DayTwoPartTwo.executor": "Run",
     "Application.day5java.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kit/Documents/code/aoc2025",
+    "last_opened_file_path": "/Users/kit/Documents/code/aoc2025/src/day02",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,10 +67,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/day02" />
       <recent name="$PROJECT_DIR$/src/day06" />
       <recent name="$PROJECT_DIR$/src/day07" />
       <recent name="$PROJECT_DIR$/src/day03" />
-      <recent name="$PROJECT_DIR$/src/day02" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -107,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733071823871</updated>
-      <workItem from="1764546115472" duration="4353000" />
+      <workItem from="1764546115472" duration="10410000" />
     </task>
     <servers />
   </component>
