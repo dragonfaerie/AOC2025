@@ -3,34 +3,31 @@ package day01
 import java.io.File
 
 fun day1parta() {
-    val fileName = "/Users/kit/Documents/code/aoc2024/src/day01/day1input"
-//    val fileName = "/Users/kit/Documents/code/aoc2024/src/exampledata"
-    val leftSet: MutableList<Int> = mutableListOf()
-    val rightSet: MutableList<Int> = mutableListOf()
-    var acc: Int = 0
+//    val fileName = "/Users/kit/Documents/code/aoc2025/src/day01/day1input"
+    val fileName = "/Users/kit/Documents/code/aoc2025/src/exampledata"
 
+    val dialMovements = mutableListOf<String>()
     File(fileName).forEachLine { line ->
-        val splitline = line.split(',')
-
-        leftSet.add(splitline[0].toInt())
-        rightSet.add(splitline[1].toInt())
+        dialMovements.add(line)
     }
 
-    leftSet.sort()
-    rightSet.sort()
+    var currentPosition = 50
+    var counter = 0
 
-    leftSet.forEachIndexed { i, n ->
-        val leftNumber = n
-        val rightNumber = rightSet[i]
+    dialMovements.forEachIndexed { index, movement ->
+        val direction = movement.take(1)
+        val amount = movement.substring(1).toInt()
 
-        if (leftNumber < rightNumber) {
-            val temp = rightNumber - leftNumber
-            acc += temp
+        currentPosition = if ( direction == "L") {
+            (currentPosition - amount + 100) % 100
         } else {
-            val temp = leftNumber - rightNumber
-            acc += temp
+            (currentPosition + amount) % 100
+        }
+
+        if (currentPosition == 0) {
+            counter++
         }
     }
 
-    println(acc)
+    println(counter)
 }

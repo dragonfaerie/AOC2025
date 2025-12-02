@@ -3,27 +3,42 @@ package day01
 import java.io.File
 
 fun day1partb() {
-    val fileName = "/Users/kit/Documents/code/aoc2024/src/day01/day1input"
-//    val fileName = "/Users/kit/Documents/code/aoc2024/src/exampledata"
-    val leftSet: MutableList<Int> = mutableListOf()
-    val rightSet: MutableList<Int> = mutableListOf()
-    var acc: Int = 0
+    val fileName = "/Users/kit/Documents/code/aoc2025/src/day01/day1input"
+//    val fileName = "/Users/kit/Documents/code/aoc2025/src/exampledata"
 
-    File(fileName).forEachLine { line ->
-        val splitline = line.split(',')
+    val dialSize = 100L
+    var absolutePosition = 50L
+    var zeroLandingCount = 0L
+    var zeroPassCount = 0L
 
-        leftSet.add(splitline[0].toInt())
-        rightSet.add(splitline[1].toInt())
+    File(fileName).forEachLine { movement ->
+        if (movement.isBlank()) return@forEachLine
+
+        val direction = movement.first()
+        val amount = movement.substring(1).toLong()
+        val positionBefore = absolutePosition
+
+        absolutePosition = if (direction == 'R') {
+            absolutePosition + amount
+        } else {
+            absolutePosition - amount
+        }
+
+        zeroPassCount += zeroPassesBetween(positionBefore, absolutePosition, dialSize)
+
+        if (Math.floorMod(absolutePosition, dialSize) == 0L) {
+            zeroLandingCount += 1
+        }
     }
 
-    leftSet.sort()
-    rightSet.sort()
+    println(zeroLandingCount + zeroPassCount)
+}
 
-    leftSet.forEachIndexed { i, n ->
-        val count = rightSet.count { it == n }
-        val similarity = n * count
-        acc += similarity
-    }
-
-    println(acc)
+private fun zeroPassesBetween(start: Long, end: Long, dialSize: Long): Long {
+    if (start == end) return 0
+    val lower = minOf(start, end)
+    val upper = maxOf(start, end)
+    val multiplesBelowUpper = Math.floorDiv(upper - 1, dialSize)
+    val multiplesAtOrBelowLower = Math.floorDiv(lower, dialSize)
+    return multiplesBelowUpper - multiplesAtOrBelowLower
 }
