@@ -8,6 +8,8 @@ import day04.day4parta
 import day04.day4partb
 import day05.day5parta
 import day05.day5partb
+import day06.day6parta
+import day06.day6partb
 
 
 fun main() {
@@ -19,6 +21,8 @@ fun main() {
 //    day3partb()
 //    day4parta()
 //    day4partb()
-    day5parta()
-    day5partb()
+//    day5parta()
+//    day5partb()
+//    day6parta()
+    day6partb()
 }

@@ -17,10 +17,14 @@ numbers.
 
 **Day 4**:
 STRUGGLE BUSSSSS. I've never been great at these mapper type puzzles so I wound up using AI to explain concepts, best
-practices, how to pick this apart. 
+practices, how to pick this apart.
 
 **Day 5**:
 Yay iterators and counters and never ending loops oops oh my. This one was pretty straight forward.
+
+**Day 6**:
+Part A: decepticon. Oh, this is easy. Cool cool we can ... what the crap is going on with part B?!  I had to have AI
+explain the puzzle to me a couple of times before I grokked what they were asking for lol.
 
 
 
