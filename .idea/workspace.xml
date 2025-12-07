@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50282514-0f97-4db7-9458-309902ced753" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day06/day6asolve.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/day6bsolve.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day06/day6input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/day7asolve.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/day7bsolve.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07/day7input" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exampledata" beforeDir="false" afterPath="$PROJECT_DIR$/src/exampledata" afterDir="false" />
@@ -104,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733071823871</updated>
-      <workItem from="1764546115472" duration="23073000" />
+      <workItem from="1764546115472" duration="28220000" />
     </task>
     <servers />
   </component>
